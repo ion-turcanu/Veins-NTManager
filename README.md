@@ -1,4 +1,7 @@
 # Veins-NTManager
 A Neighbor Table (NT) manager for Veins
 
-##Installation
+## Installation
+1. Install Veins (https://veins.car2x.org/)
+2. Get Veins-NTManager
+`git clone `
