@@ -1,0 +1,4 @@
+#!/bin/sh
+cd `dirname $0`
+../src/veins_nt_manager -n .:../src $*
+# for shared lib, use: opp_run -l ../src/veins_nt_manager -n .:../src $*
