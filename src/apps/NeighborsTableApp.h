@@ -32,8 +32,6 @@ public:
 
 protected:
     void onBSM(BeaconMessage* bsm) override;
-    //void onWSM(BaseFrame1609_4* wsm) override;
-    //void onWSA(DemoServiceAdvertisment* wsa) override;
 
     void handleSelfMsg(cMessage* msg) override;
     void handlePositionUpdate(cObject* obj) override;
